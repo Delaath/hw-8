@@ -1,0 +1,77 @@
+div :first-child {
+    color: pink;
+}
+
+.text-box > #greycol{
+    color: gray;
+}
+
+
+.text-box :only-child{
+    color: red;
+}
+
+.text-box > .yellow{
+    color: yellow;
+}
+div ~ p{
+    color: green;
+}
+
+/*==============2 ЧАСТИНА================*/
+
+table {
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+}
+
+/*=======================================*/
+
+tr > th{
+    background-color: rgb(255, 255, 255);
+    color: rgb(42, 6, 203);
+}
+
+th:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.den-zhestokiy{
+    color: red;
+    background-color: black;
+}
+
+.den-neduzhe{
+    color: rgb(255, 98, 0);
+    background-color: rgb(34, 34, 34);
+}
+
+.den-sredniy{
+    color: rgb(223, 205, 0);
+    background-color: #4a4a4a;
+}
+
+.den-mayzhe_pyatnica{
+    color: rgb(3, 122, 9);
+    background-color: #676767;
+}
+
+.ce_zhah:hover{
+    color: rgb(202, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+.ce_kayf:hover{
+    color: white;
+    background-color: blue;
+}
+
+.ce_norm:hover{
+    color: yellow;
+    background-color: green;
+}
